@@ -44,6 +44,17 @@ main {
 	border-radius: 10px;
 }
 
+.pattern-button {
+	display: block;
+	margin: 0 auto;
+	border: 2px #F66867 solid;
+	border-radius: 8px;
+	padding: 10px 12px;
+	background-color: #3D93DD;
+	font-size: 1.1em;
+	color: white;
+}
+
 .pattern-head {
 	text-align: center;
 	text-decoration: underline;
