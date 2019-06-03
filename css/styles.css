@@ -29,13 +29,25 @@ header {
 
 
 /* Main */
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100%;
+	
+	position: relative;
+	min-height: 89%;
+}
 
+.pattern {
+	border: 1px black solid;
+	background-color: blue;
+}
 
 
 
 /* Footer */
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	min-width: 100%;
 	min-height: 3%;
