@@ -61,6 +61,15 @@ main {
 	color: black;
 }
 
+.pattern-container {
+	margin: 20px 20px 10px;
+	border: 2px indigo solid;
+	border-radius: 10px;
+	min-height: 40%;
+	max-height: 60%;
+	background-color: purple;
+}
+
 .pattern-head {
 	text-align: center;
 	text-decoration: underline;
