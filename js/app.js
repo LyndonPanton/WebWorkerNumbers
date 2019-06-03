@@ -19,6 +19,7 @@
 			primeWorker = new Worker("./js/workers/prime.js");
 			primeWorker.addEventListener("message", function(event) {
 				let number = document.createElement("p");
+				number.classList.add("prime-line");
 				let numberText = document.createTextNode(event.data);
 				number.appendChild(numberText);
 				primeContainer.appendChild(number);
