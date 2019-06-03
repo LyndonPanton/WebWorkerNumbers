@@ -34,7 +34,7 @@
 		// Fibonacci
 		let fibonacciStart = document.getElementById("pattern-fibonacci-start");
 		let fibonacciStop = document.getElementById("pattern-fibonacci-stop");
-		let primeContainer = document.getElementById("pattern-fibonacci-container")
+		let fibonacciContainer = document.getElementById("pattern-fibonacci-container")
 		let fibonacciWorker;
 
 		fibonacciStart.addEventListener("click", function() {
