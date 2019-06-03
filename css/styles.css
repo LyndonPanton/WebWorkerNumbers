@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* summer vacation (@scheme color): #32D081, #CCEFAB, #F66867, #F7DD7D, #5BC5EA, #3D93DD */
 
+/* General */
 body, html {
 	margin: 0;
 	width: 100%;
@@ -11,3 +12,24 @@ body, html {
 	background-color: #32D081;
 	color: white;
 }
+
+
+/* Header */
+h1 {
+	margin: 0;
+}
+
+header {
+	padding: 10px 0;
+	background-color: #F66867;
+	text-align: center;
+}
+
+
+
+/* Main */
+
+
+
+
+/* Footer */
