@@ -15,9 +15,8 @@
 		let primeWorker;
 
 		primeStart.addEventListener("click", function() {
-			// console.log("prime worker started");
 
-			primeWorker = new Worker("/workers/prime.js");
+			primeWorker = new Worker("./js/workers/prime.js");
 			primeWorker.addEventListener("message", function(event) {
 				let number = document.createElement("p");
 				let numberText = document.createTextNode(event.data);
@@ -38,9 +37,8 @@
 		let fibonacciWorker;
 
 		fibonacciStart.addEventListener("click", function() {
-			// console.log("fibonacci worker started");
 
-			fibonacciWorker = new Worker("/workers/fibonacci.js");
+			fibonacciWorker = new Worker("./js/workers/fibonacci.js");
 			fibonacciWorker.addEventListener("message", function(event) {
 				let number = document.createElement("p");
 				let numberText = document.createTextNode(event.data);
