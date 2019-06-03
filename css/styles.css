@@ -33,3 +33,12 @@ header {
 
 
 /* Footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 10px 0;
+	background-color: #F7DD7D;
+	text-align: center;
+	color: black;
+}
