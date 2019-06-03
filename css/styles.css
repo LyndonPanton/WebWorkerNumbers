@@ -2,6 +2,10 @@
 /* summer vacation (@scheme color): #32D081, #CCEFAB, #F66867, #F7DD7D, #5BC5EA, #3D93DD */
 
 /* General */
+::-webkit-scrollbar {
+	display: none;
+}
+
 body, html {
 	margin: 0;
 	width: 100%;
@@ -42,6 +46,7 @@ main {
 	margin: 10px 5px;
 	border: 2px #3D93DD solid;
 	border-radius: 10px;
+	overflow-y: scroll;
 }
 
 .pattern-button {
@@ -68,6 +73,7 @@ main {
 	min-height: 40%;
 	max-height: 60%;
 	background-color: purple;
+	overflow-y: scroll;
 }
 
 .pattern-head {
