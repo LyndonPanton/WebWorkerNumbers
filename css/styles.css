@@ -33,16 +33,24 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 100%;
-	
+
 	position: relative;
 	min-height: 89%;
 }
 
 .pattern {
-	border: 1px black solid;
-	background-color: blue;
+	margin: 10px 5px;
+	border: 2px #3D93DD solid;
+	border-radius: 10px;
 }
 
+#pattern-fibonacci {
+	background-color: #5BC5EA;
+}
+
+#pattern-prime {
+	background-color: #CCEFAB;
+}
 
 
 /* Footer */
