@@ -44,6 +44,12 @@ main {
 	border-radius: 10px;
 }
 
+.pattern-head {
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+}
+
 #pattern-fibonacci {
 	background-color: #5BC5EA;
 }
