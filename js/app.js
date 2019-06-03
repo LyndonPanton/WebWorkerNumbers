@@ -27,7 +27,7 @@
 		});
 
 		primeStop.addEventListener("click", function() {
-			console.log("prime worker stopped");
+			primeWorker.terminate();
 		});
 
 
@@ -50,7 +50,7 @@
 		});
 
 		fibonacciStop.addEventListener("click", function() {
-			console.log("fibonacci worker stoppped");
+			primeWorker.terminate();
 		});
 	}
 }());
