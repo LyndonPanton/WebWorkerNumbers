@@ -55,6 +55,12 @@ main {
 	color: white;
 }
 
+.pattern-button:active {
+	border-color: #32D081;
+	background-color: #F7DD7D;
+	color: black;
+}
+
 .pattern-head {
 	text-align: center;
 	text-decoration: underline;
